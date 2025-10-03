@@ -1,0 +1,78 @@
+# Logs
+logs/*.log
+logs/*.pid
+*.log
+
+# Dependency directories
+node_modules/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+
+# Testing
+coverage/
+.nyc_output/
+*.test.js
+
+# Build outputs
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+
+# Development documentation (keep out of git)
+.github/STORY_*.md
+.github/EPIC_*.md
+.github/TEST_*.md
+.github/*_COMPLETE.md
+.github/*_TEST_RESULTS.md
+.github/*_VERIFICATION.md
+
+# Development progress tracking
+PROGRESS.md
+CURSOR_SETUP_CHECKLIST.md
+CURSOR_FIX.md
+QUICK_TEST.md
+
+# Development notes and brainstorming
+brainstorm_session.md
+docs/
+development_notes.md
+TODO.md
+NOTES.md
+
+# Local test projects (examples should be minimal)
+test-*/
+temp-*/
+local-*/
+
+# User-specific configuration
+*_private.md
+*_local.md
+*_personal.md
+
+# Additional unstaged files
+examples/test-log-mcp-integration.md
+utils/mcp-logger/README.md
+examples/README.md
+docs/prd.md

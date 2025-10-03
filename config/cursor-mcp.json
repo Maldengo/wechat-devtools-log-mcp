@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "wechat-devtools-log-mcp": {
+      "command": "python3",
+      "args": [
+        "/absolute/path/to/wechat-devtools-log-mcp/server/mcp-server.py"
+      ],
+      "env": {
+        "WECHAT_LOG_PATH": "/absolute/path/to/wechat-devtools-log-mcp/logs/wechat_logs.log"
+      }
+    }
+  }
+}

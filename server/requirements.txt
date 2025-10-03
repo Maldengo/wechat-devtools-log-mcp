@@ -1,0 +1,5 @@
+# Python dependencies for MCP server
+# All dependencies are from Python standard library except watchdog for file monitoring
+
+# File monitoring for real-time log updates
+watchdog>=3.0.0

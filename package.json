@@ -1,0 +1,42 @@
+{
+  "name": "wechat-devtools-log-mcp",
+  "version": "1.0.0",
+  "description": "Real-time WeChat DevTools log streaming for LLM agents (Cursor, Claude Code, etc.)",
+  "main": "server/log-collector.js",
+  "scripts": {
+    "start": "node server/log-collector.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-org/wechat-devtools-log-mcp.git"
+  },
+  "keywords": [
+    "wechat",
+    "miniprogram",
+    "mcp",
+    "llm",
+    "cursor",
+    "claude-code",
+    "logging",
+    "devtools",
+    "ai-assisted-development"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/your-org/wechat-devtools-log-mcp/issues"
+  },
+  "homepage": "https://github.com/your-org/wechat-devtools-log-mcp#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
